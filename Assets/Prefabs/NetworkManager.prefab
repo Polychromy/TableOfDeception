@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5502153302072627430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5502153302072627427}
+  - component: {fileID: 5502153302072627424}
+  - component: {fileID: 5502153302072627425}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5502153302072627427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502153302072627430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 595.3028, y: 322.5406, z: -116.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5502153302072627424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502153302072627430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b972c7d31fe5f744981d7c11095c2482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  runInBackground: 1
+  autoStartServerBuild: 1
+  showDebugMessages: 0
+  serverTickRate: 30
+  offlineScene: Assets/Scenes/MainMenuScene.unity
+  onlineScene: Assets/Scenes/Lobby.unity
+  transport: {fileID: 5502153302072627425}
+  networkAddress: localhost
+  maxConnections: 8
+  disconnectInactiveConnections: 0
+  disconnectInactiveTimeout: 60
+  authenticator: {fileID: 0}
+  playerPrefab: {fileID: 5860487007720733420, guid: b730e9264647dc44e8c0d0d6114258aa,
+    type: 3}
+  autoCreatePlayer: 1
+  playerSpawnMethod: 0
+  spawnPrefabs:
+  - {fileID: 6903771603543467373, guid: fc225aae5a346c94a932617b1e32239f, type: 3}
+  - {fileID: 6392928585886734682, guid: 75a4d2b034c919e4099f4b5c48434fce, type: 3}
+  - {fileID: 7946501454035312351, guid: 20bdea803c3eb0740b82114d27999bf2, type: 3}
+  - {fileID: 6853716620216876202, guid: 4e33a48ce087def4b87f2ca296d94f5d, type: 3}
+  - {fileID: 3573226074364670477, guid: 0263fc3bd80657a4ab648f87adee0799, type: 3}
+  - {fileID: 358223094991011830, guid: 5767e1f93fb5d634bbbc74f26253ff22, type: 3}
+  - {fileID: 2491924988987388771, guid: 0f86cce2d69d6be41843a9ac437860a5, type: 3}
+  - {fileID: 4848691322832958458, guid: 5eacb96a13d2267418aefa07a7535c1a, type: 3}
+  - {fileID: 7418157150540135999, guid: 3a3e26e7ec2d13444a8c7967ce8596ac, type: 3}
+  - {fileID: 1932893235682256548, guid: 7d39b5b61a2e7094eb01eca5e9763fad, type: 3}
+  - {fileID: 6818500493316244073, guid: 9e5c17106232331479f50c5dc98e28f1, type: 3}
+  - {fileID: 9132755363630040284, guid: 7167b256ade39ed46bb8cd4d3806d723, type: 3}
+  - {fileID: 5000686434074422735, guid: 4fb30410e7181f54bb3202af2941a5f2, type: 3}
+  - {fileID: 3139779421825124280, guid: 4c27f9470b5b1b145ba27bd7439c621c, type: 3}
+  - {fileID: 8788105193492449386, guid: dca0f75f7f560794883c1f22172257df, type: 3}
+  - {fileID: 3012713978448362366, guid: 639480e1303e4004090ba1a5923f5784, type: 3}
+  - {fileID: 530354488307409232, guid: 01f8c2243f3e3024c9700938b58420d5, type: 3}
+  - {fileID: 5706636867897381456, guid: 1990ce880900f6d499677bb43e2531e9, type: 3}
+  - {fileID: 6644504007037022571, guid: b076994a61d49f342bcbf46e8297f45c, type: 3}
+  - {fileID: 6786134085367115849, guid: 01fceb6b1c121a64ebdd7ec6bd6cba77, type: 3}
+  - {fileID: 5776423878217825401, guid: 54223a1f5545ade439b69722ad6627fb, type: 3}
+  - {fileID: 4010414886386004554, guid: 2dd26ccf92d754745bc78b7c38d937d6, type: 3}
+  - {fileID: 1796907661225923808, guid: ea85473e0baa0944abba52241a747f1c, type: 3}
+  - {fileID: 7440478545181965262, guid: 94da125f8ea1c1843965b2d19625d860, type: 3}
+  - {fileID: 2376048547494865772, guid: 5b22bfebc4ff5884894ad7780c55723a, type: 3}
+  TraitorPlayerCount: 1
+  MaxPlayers: 8
+  lobbyPlayerPrefab: {fileID: 7987220751541848009, guid: b730e9264647dc44e8c0d0d6114258aa,
+    type: 3}
+  lobbyScene: Assets/Scenes/Lobby.unity
+  lobbySceneName: Lobby
+  gameSceneName: Game
+  UseTimer: 0
+  gamePlayerPrefab: {fileID: 7946501454035312351, guid: 20bdea803c3eb0740b82114d27999bf2,
+    type: 3}
+  gameManagerPrefab: {fileID: 6903771603543467373, guid: fc225aae5a346c94a932617b1e32239f,
+    type: 3}
+  playerManagerPrefab: {fileID: 6853716620216876202, guid: 4e33a48ce087def4b87f2ca296d94f5d,
+    type: 3}
+  phaseManagerPrefab: {fileID: 6392928585886734682, guid: 75a4d2b034c919e4099f4b5c48434fce,
+    type: 3}
+  abilityManagerPrefab: {fileID: 3573226074364670477, guid: 0263fc3bd80657a4ab648f87adee0799,
+    type: 3}
+  voteManagerPrefab: {fileID: 358223094991011830, guid: 5767e1f93fb5d634bbbc74f26253ff22,
+    type: 3}
+  MiniGamePrefab: {fileID: 1796907661225923808, guid: ea85473e0baa0944abba52241a747f1c,
+    type: 3}
+  DuplicateNameCounter: 0
+--- !u!114 &5502153302072627425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502153302072627430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7424c1070fad4ba2a7a96b02fbeb4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 7777
+  NoDelay: 1
+  serverMaxMessageSize: 16384
+  serverMaxReceivesPerTick: 10000
+  clientMaxMessageSize: 16384
+  clientMaxReceivesPerTick: 1000
