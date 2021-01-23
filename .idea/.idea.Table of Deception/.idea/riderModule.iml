@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../.." />
+<<<<<<< Updated upstream
+=======
+    <content url="file://$USER_HOME$/Unity/2019.4.16f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.sprite/Editor" />
+    <content url="file://$USER_HOME$/Unity/2019.4.16f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor" />
+    <content url="file://$USER_HOME$/Unity/2019.4.16f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor" />
+    <content url="file://$USER_HOME$/Unity/2019.4.16f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime" />
+>>>>>>> Stashed changes
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
