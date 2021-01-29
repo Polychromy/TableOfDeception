@@ -62,5 +62,5 @@ crashlytics-build.properties
 
 #  Everything else
 
-./.vscode
-./.idea
+.vscode/
+.idea/
