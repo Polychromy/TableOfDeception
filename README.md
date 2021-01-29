@@ -1,4 +1,4 @@
-# TableOfDeception<br>
+# Table Of Deception<br>
 ![alt text](https://github.com/Polychromy/TableOfDeception/blob/main/Pictures/ToD.png?raw=true "ToD")
 
 ### Latest Release:<br>
