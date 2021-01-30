@@ -1,5 +1,5 @@
 # Table Of Deception<br>
-![alt text](https://github.com/Polychromy/TableOfDeception/blob/main/Pictures/ToD.png?raw=true "ToD")
+![alt text](https://github.com/Polychromy/TableOfDeception/blob/release/Pictures/ToD.png)
 
 ### Latest Release:<br>
 Windows : https://github.com/Polychromy/TableOfDeception/releases/download/v0.2_alpha/ToD.zip <br>
